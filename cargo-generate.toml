@@ -1,5 +1,5 @@
 [template]
-ignore = ["uv.lock", ".venv", ".mypy_cache", ".ruff_cache", ".pytest_cache"]
+ignore = ["uv.lock"]
 
 [placeholders]
 vscode_settings = { prompt = "Generate default VS Code settings?", default = false, type = "bool" }

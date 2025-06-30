@@ -1,0 +1,21 @@
+{
+    "python.experiments.enabled": false,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "ruff.lineLength": 88,
+    "ruff.nativeServer": "on",
+    "ruff.lint.select": [
+        "E",
+        "W",
+        "F",
+        "UP",
+        "S",
+        "I",
+        "SIM",
+        "RUF"
+    ],
+    "ruff.configuration": "${workspaceFolder}/pyproject.toml",
+    "ruff.configurationPreference": "filesystemFirst",
+    "mypy-type-checker.importStrategy": "fromEnvironment"
+}
